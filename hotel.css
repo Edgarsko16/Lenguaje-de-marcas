@@ -1,0 +1,58 @@
+.TipoHabitacion,
+.Opciones {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(90, 182, 205);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: snow;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: black;
+}
+
+input,
+select,
+textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(1, 1, 49);
+    border-radius: 10px;
+}
+
+p {
+    margin: 5px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin: auto;
+    font-style: normal;
+}

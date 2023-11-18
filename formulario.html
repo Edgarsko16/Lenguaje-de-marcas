@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> Ejemplo de formulario: Matriculación en el ASIR</title>
+</head>
+<body>
+    <h2>Ejemplo de formulario: Matriculación en el ASIR</h2>
+    <form action="ejemplo de formulario" method="post">
+    <label for="Nombre"><strong>Nombre:</strong></label>
+    <input type="text" name="Usuario" id="Usuario" placeholder="Escribe aquí el nombre">
+    <label for="Apellidos"><strong>Apellidos:</strong></label>
+    <input type="text" name="Apellidos" id="Apellidos" placeholder="Escribe aquí tu apellido">
+    <label><strong>Sexo:</strong></label>
+        <input type="radio" name="Sexo" id="Mujer" value="M"><label for="Mujer">M</label>
+        <input type="radio" name="Sexo" id="Hombre" value="F"><label for="Hombre">H</label>
+    <br><br>
+    <label><strong>Fecha de nacimiento:</strong></label>
+    <input type="date" name="Fecha" id="Fecha">
+        
+    <p><b>Escoge los modulos en los que te matriculas:</b></p>
+    <table>
+        <tr>
+            <td>
+            <input type="checkbox" name="Modulos"/> Fundamentos de Hardware
+            </td>
+            <td>
+            <input type="checkbox" name="Modulos"/> Servicios de Red e Internet
+            </td>
+            </tr>
+            <tr>
+            <td>
+            <input type="checkbox" name="Modulos"/>Gestión de Bases de Datos
+            </td>
+            <td>
+            <input type="checkbox" name="Modulos"/>Administración de sistemas Operativos
+            </td>
+            </tr>
+            <tr>
+            <td>
+            <input type="checkbox" name="Modulos"/>Implantación de Sistemas Operativos
+            </td>
+            <td>
+            <input type="checkbox" name="Modulos"/>Implantación de Aplicaciones Web
+            </td>
+            </tr>
+            <tr>
+            <td>
+            <input type="checkbox" name="Modulos"/>Planificación y Administración de Redes
+            </td>
+            <td>
+            <input type="checkbox" name="Modulos"/>Administración de Sistemas Gestores de Bases de Datos</input>
+            </td>
+            </tr>
+            <tr>
+            <td>
+            <input type="checkbox" name="Modulos"/>Lenguajes de Marcas y Sistemas de Gestión de Información</input>
+            </td>
+            <td>
+            <input type="checkbox" name="Modulos"/>Seguridad y Alta Disponibilidad
+            </td>
+            </tr>
+            <tr>
+            <td>
+            <input type="checkbox" name="Modulos"/>Formación y Orientación Laboral
+            </td>
+            <td>
+            <input type="checkbox" name="Modulos"/>Empresa e Iniciativa Emprendedora
+            </td>
+            </tr>
+            <tr>
+            <td>
+            <input type="checkbox" name="Modulos"/>Proyecto de Administración de Sistemas Informáticos en Red
+            </td>
+            <td>
+            <input type="checkbox" name="Modulos"/>Formación en Centros de Trabajo
+            </td>
+            </tr>
+        </table>
+            <br/><br/>
+            <b>Estudios previos:</b>
+            <br/>
+            <textarea name="Estudios" rows="3" cols="55"></textarea>
+            <br><br>
+            <button type="button">Enviar</button>
+            <input type="reset" name="Reset"></input>
+            </form>
+            <p><b>Pulsa el botón de "enviar" para formalizar la matrícula o el botón de "restablecer" para limpiar el formulario.</b></p>
+</form>
+</body>
+</html>

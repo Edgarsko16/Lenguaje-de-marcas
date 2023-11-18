@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario para hotel</title>
+    <link rel="stylesheet" href="hotel.css">
+</head>
+<body>
+    <header>
+        <h1>Occidental Jandía Playa</h1>
+    </header>
+    <form action="Reserva">
+        <label for="Nombre"><strong>Nombre:</strong></label>
+        <input type="text" name="Nombre" id="Nombre" placeholder="Introduzca aquí su nombre">
+        <label for="Apellidos"><strong>Apellidos:</strong></label>
+        <input type="text" name="Apellidos" id="Apellidos" placeholder="Introduzca aquí sus apellidos">
+        <label for="Telefono"><strong>Teléfono de contacto:</strong></label>
+        <input type="text" name="Telefono" id="Telefono" placeholder="Introduzca aquí su teléfono">
+        <br><br>
+        <label for="Email"><strong>Correo electrónico:</strong></label>
+        <input type="email" name="Email" id="Email" placeholder="Introduzca aquí su correo electrónico">
+        <label for="Usuarios"><strong>Número de huespedes:</strong></label>
+        <input type="number" name="Usuarios" id="Usuarios" placeholder="Introduzca aquí los huespedes">
+        <label for="Noches"><strong>Número de noches:</strong></label>
+        <input type="number" name="Noches" id="Noches" placeholder="Introduzca aquí las noches">
+    <section class="FechaEntrada">
+        <p>Día de entrada:</p>
+        <select name="Dia" id="Dia">Día
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+        <option value="25">25</option>
+        <option value="26">26</option>
+        <option value="27">27</option>
+        <option value="28">28</option>
+        <option value="29">29</option>
+        <option value="30">30</option>
+        <option value="31">31</option>
+        </select>
+        <p>Mes de entrada:</p>
+        <select name="Mes" id="Mes">
+        <option value="Enero">Enero</option>
+        <option value="Febrero">Febrero</option>
+        <option value="Marzo">Marzo</option>
+        <option value="Abril">Abril</option>
+        <option value="Mayo">Mayo</option>
+        <option value="Junio">Junio</option>
+        <option value="Julio">Julio</option>
+        <option value="Agosto">Agosto</option>
+        <option value="Septiembre">Septiembre</option>
+        <option value="Octubre">Octubre</option>
+        <option value="Noviembre">Noviembre</option>
+        <option value="Diciembre">Diciembre</option>
+        </select>
+    </section>
+    <section class="TipoHabitacion">
+    <label for="habitacion"><strong>Tipo de habitación:</strong></label>
+    <input type="radio" name="TipoHabitacion" id="Simple">
+    <label for="Simple">Simple</label>
+    <input type="radio" name="TipoHabitacion" id="Doble">
+    <label for="Doble">Doble</label>
+    <input type="radio" name="TipoHabitacion" id="Matrimonio">
+    <label for="Matrimonio">Matrimonio</label>
+    </section>
+    <section class="Opciones">
+        <label><em>Preferencias:</em></label>
+        <input type="checkbox" name="desayuno" id="desayuno" value="desayuno">
+        <label for="desayuno">Desayuno</label>
+        <input type="checkbox" name="comida" id="comida" value="comida">
+        <label for="comida">Comida</label>
+        <input type="checkbox" name="cena" id="cena" value="cena">
+        <label for="cena">Cena</label>
+        <input type="checkbox" name="camaSupletoria" id="camaSupletoria" value="camaSupletoria">
+        <label for="camaSupletoria">Cama Supletoria</label>
+    </section>
+    <section class="cajaTexto">
+        <p><Strong>Comentarios:</Strong></p>
+        <textarea name="valoracion" id="valoracion" cols="70" rows="5"></textarea>
+    </section>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpiar">
+    </form>
+</body>
+</html>
